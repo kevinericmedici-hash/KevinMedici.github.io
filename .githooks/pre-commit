@@ -1,0 +1,5 @@
+#!/bin/sh
+# Blocks commits that introduce broken or case-mismatched asset links.
+# See scripts/check_links.py.
+
+python3 scripts/check_links.py
