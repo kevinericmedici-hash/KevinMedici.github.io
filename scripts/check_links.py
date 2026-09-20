@@ -14,7 +14,7 @@ import urllib.parse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-ASSET_EXT = r"\.(?:png|jpg|jpeg|gif|svg|webp|ico|pdf|css|js)"
+ASSET_EXT = r"\.(?:png|jpg|jpeg|gif|svg|webp|ico|pdf|css|js|woff2)"
 LINK_RE = re.compile(r'(?:src|href)="([^"]+' + ASSET_EXT + r')"', re.IGNORECASE)
 
 
