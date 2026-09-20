@@ -1372,22 +1372,6 @@ footer {
     margin-bottom: 18px;
 }
 
-/* Project result line */
-.project-result {
-    margin-top: 16px;
-    padding: 10px 14px;
-    border-left: 3px solid var(--accent);
-    border-radius: 0 8px 8px 0;
-    background: rgba(94, 164, 255, 0.07);
-    color: #d5e6ff;
-    font-size: 0.95rem;
-    line-height: 1.5;
-}
-
-.project-result strong {
-    color: var(--accent-2);
-}
-
 /* Experience */
 .experience-head {
     display: flex;
