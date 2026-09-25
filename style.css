@@ -450,6 +450,7 @@ footer {
 .project-placeholder {
     min-height: 240px;
 }
+}
 .featured-project-image {
     min-height: 330px;
     display: flex;
@@ -841,7 +842,6 @@ footer {
         grid-template-columns: 1fr;
     }
 
-}
 }
 /* PTCA card image fix */
 
