@@ -2090,3 +2090,16 @@ h3 {
 .fabpath-card-image {
     background: #07111f !important;
 }
+
+/* Result charts that live inside a testing-grid card: stack them at card width */
+.testing-grid .case-study-image-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+    margin: 24px 0 0;
+}
+
+.testing-grid .case-study-image-grid img {
+    height: auto;
+    max-height: 320px;
+    padding: 10px;
+}
